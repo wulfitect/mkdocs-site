@@ -1,0 +1,74 @@
+site_name: TechScapes
+site_url: https://sitename.example
+site_description: >
+  A detailed guide on VXLAN-EVPN designs, use cases, and step-by-step configuration instructions
+  for Cisco and Juniper platforms.
+site_author: David Oshiro-Furry
+
+theme:
+  name: material
+  font: 
+    text: Merriweather Sans
+    code: Red Hat Mono
+  logo: assets/infinite Dreamscapes.jpg
+  favicon: assets/wolfe.webp
+  features:
+    - navigation.footer
+  palette:
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: black
+      accent: green
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/david-oshiro-furry
+
+nav:
+  - Home: index.md
+  - Recommended Designs: recommended-designs.md
+  - Use Cases: use-cases.md
+  - Advanced Topics: advanced-topics.md
+  - Troubleshooting: troubleshooting.md
+  - Configuration:
+      - Cisco: configuration/cisco.md
+      - Juniper: configuration/juniper.md
+  - Content-tabs: content-tabs.md
+  - Admonitions: admonitions.md
+  - Diagrams: diagram.md
+
+
