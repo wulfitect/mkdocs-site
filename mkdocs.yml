@@ -10,7 +10,7 @@ theme:
   font: 
     text: Merriweather Sans
     code: Red Hat Mono
-  logo: assets/Infinite Dreamscapes.jpg
+  logo: assets/InfiniteDreamscapes.jpg
   favicon: assets/wolfe.webp
   features:
     - navigation.footer
