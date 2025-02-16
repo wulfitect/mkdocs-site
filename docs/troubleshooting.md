@@ -4,17 +4,17 @@ This section provides guidance for diagnosing and resolving common issues.
 
 ## Common Issues
 
-=== **NVE Interface Down:** 
-  - Verify source interface (loopback) configuration.
-  - Check IP reachability in the underlay network.
+=== "**NVE Interface Down:**" 
+    1. Verify source interface (loopback) configuration.
+    2. Check IP reachability in the underlay network.
 
-=== **BGP EVPN Route Absence:** 
-  - Ensure proper BGP neighbor relationships.
-  - Confirm EVPN address-family configuration.
+=== "**BGP EVPN Route Absence:**" 
+    1. Ensure proper BGP neighbor relationships.
+    2. Confirm EVPN address-family configuration.
 
-=== **VXLAN Tunnel Issues:** 
-  - Validate VNI mappings on both sides.
-  - Check for MTU mismatches and encapsulation errors.
+=== "**VXLAN Tunnel Issues:**" 
+    1. Validate VNI mappings on both sides.
+    2. Check for MTU mismatches and encapsulation errors.
 
 ## Diagnostic Commands
 
