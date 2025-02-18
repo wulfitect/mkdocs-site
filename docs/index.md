@@ -1,4 +1,4 @@
-# Network Design Documentation
+# **Network Design Documentation**
 
 Welcome to the Network Design Documentation site! This site provides comprehensive guides, tutorials, and resources for network design patterns, with a focus on VXLAN-EVPN configurations for both Cisco and Juniper equipment.
 
